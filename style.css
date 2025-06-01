@@ -1,0 +1,96 @@
+/* GOOGLE FONT LINK */
+
+/* /RESET DEAFAULT CSS */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+body{
+    background-color: #3A8EBE;
+    font-family: "Poppins", sans-serif;
+}
+/* MAIN AREA SECTION STYLE */
+.wrapper{
+    width: 90%;
+    max-width: 25em;
+    background-color: #f6f6f8;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 2em;
+    border-radius: 0.8rem;
+}
+.appDetails{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.appIcon{
+    width: 9.4em;
+}
+.appTitle{
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+/* DROPDOWN STYLE */
+label{
+    display: block;
+    font-weight: 600;
+}
+
+input#amount{
+    font-weight: 400;
+    font-size: 1.2rem;
+    display: block;
+    width: 100%;
+    border-bottom: 2px solid #02002c;
+    color: #7a789d;
+    margin-bottom: 2em;
+    padding: 0.5em;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+input#amount:focus{
+    color: #002551;
+    border-color: #002551;
+}
+.dropdowns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+select{
+    width: 100%;
+    padding: 0.6em;
+    border-radius: 5px;
+    background-color: #002551;
+    color: #fdfcff;
+}
+select option{
+    background-color: #fff;
+    color: #02002c;
+}
+button{
+    font-size: 1em;
+    width: 100%;
+    background-color: #002551;
+    padding: 0.7em 0;
+    margin-top: 2em;
+    border-radius: 0.3em;
+    color: #ffffff;
+    font-weight: 600;
+}
+#reslut{
+    font-size: 1em;
+    text-align: center;
+    margin-top: 1em;
+    color: #02002c;
+    background-color: #dbecff;
+    padding: 0.8em 0;
+}

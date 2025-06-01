@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExchanGo | Real-Time Currency Converter App for Global Exchange Rates</title>
+    <meta name="description" content="Convert currencies instantly with ExchanGo – your go-to app for real-time exchange rates, accurate conversions, and global currency tracking. Easy, fast, and reliable.">
+    <meta name="keywords" content="currency converter, exchange rates, ExchanGo app, real-time currency exchange, forex rates, money conversion, travel currency tool, financial tools, convert USD to EUR, convert currency app">
+
+    <!-- GOOGLE FONT LINK -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- STYLE LINK -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- MAIN AREA SECTION -->
+    <div class="wrapper">
+        <div class="appDetails">
+            <img src="./img/c1.jpg" alt="" class="appIcon">
+            <h class="appTitle">currency Converter</h>
+        </div>
+
+        <label for="amount">Amount:</label>
+        <input type="number" name="amount" id="amount" value="100">
+        <div class="dropdowns">
+            <select name="" id="fromCurrencySelect"></select>
+            <select name="" id="toCurrencySelect"></select>
+        </div>
+
+        <button id="convertBtn">Convert</button>
+        <p id="reslut">Converted Amount Appears Here</p>
+    </div>
+
+
+
+    <!-- COUNTRY CODES -->
+    <script src="currencycode.js"></script>
+    <!-- API KEY -->
+    <script src="apikey.js"></script>
+    <!-- SCRIPT LINK -->
+    <script src="app.js"></script>
+    
+</body>
+</html>
