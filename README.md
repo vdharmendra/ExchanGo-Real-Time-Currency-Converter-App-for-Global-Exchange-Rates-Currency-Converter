@@ -2,7 +2,7 @@
 A simple web-based Currency Converter built using HTML, CSS, and JavaScript. It allows users to convert an amount from one currency to another using real-time exchange rates fetched from the ExchangeRate API.
 
 ### 🌐 Live Demo
-(Add a link here if hosted on GitHub Pages, Vercel, Netlify, etc.)
+[(Add a link here if hosted on GitHub Pages, Vercel, Netlify, etc.)](https://vdharmendra.github.io/ExchanGo-Real-Time-Currency-Converter-App-for-Global-Exchange-Rates-Currency-Converter/)
 
 ## 🚀 Features
 Real-time currency conversion
